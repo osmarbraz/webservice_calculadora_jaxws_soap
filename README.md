@@ -1,4 +1,4 @@
-# Programa servidor do webservice da calculadora.
+# Programa servidor do webservice da calculadora utilizando JAX-WS e SOAP.
 
 - Programa servidor que cria o webservice "CalculadoraServico".
 - Programa cliente está no projeto "webservice_calculadora_jaxws_soap_cliente".
