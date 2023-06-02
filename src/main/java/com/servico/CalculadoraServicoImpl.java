@@ -11,14 +11,14 @@ import javax.jws.WebService;
 public class CalculadoraServicoImpl implements CalculadoraServico {
 
     @Override
-    public double getAdicao(double a, double b) {
+    public double getSoma(double a, double b) {
         double resultado = a + b;
         System.out.println("A = " + a + " + B = " + b + " Resultado: " + resultado);        
         return resultado;
     }
 
     @Override
-    public double getSubtracao(double a, double b) {
+    public double getDiferenca(double a, double b) {
         double resultado = a - b;
         System.out.println("A = " + a + " - B = " + b + " Resultado: " + resultado);        
         return resultado;
@@ -32,7 +32,7 @@ public class CalculadoraServicoImpl implements CalculadoraServico {
     }
 
     @Override
-    public double getDivisao(double a, double b) {
+    public double getQuociente(double a, double b) {
         double resultado = a / b;
         System.out.println("A = " + a + " / B = " + b + " Resultado: " + resultado);        
         return resultado;
